@@ -7,8 +7,8 @@ import random
 driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get("http://www.instagram.com/")
-username = "binodbinodbinod_3"
-password = "Binod@3"
+username = "username"
+password = "pswd"
 sleep(5)
 driver.find_element_by_xpath("//input[@name=\"username\"]").send_keys(username)
 driver.find_element_by_xpath("//input[@name=\"password\"]").send_keys(password)
